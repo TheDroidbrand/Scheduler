@@ -9,7 +9,7 @@ import Link from "next/link"
 const upcomingAppointments = [
   {
     id: 1,
-    doctorName: "Dr. Sarah Johnson",
+    doctorName: "Dr. John Doe",
     specialization: "Cardiologist",
     date: "May 10, 2023",
     time: "10:00 AM",
@@ -18,7 +18,7 @@ const upcomingAppointments = [
   },
   {
     id: 2,
-    doctorName: "Dr. Michael Chen",
+    doctorName: "Dr. Michael Davido",
     specialization: "Dermatologist",
     date: "May 15, 2023",
     time: "2:30 PM",
@@ -30,7 +30,7 @@ const upcomingAppointments = [
 const pastAppointments = [
   {
     id: 3,
-    doctorName: "Dr. Emily Rodriguez",
+    doctorName: "Dr. Emma Adeojo",
     specialization: "Pediatrician",
     date: "April 28, 2023",
     time: "9:15 AM",
@@ -39,7 +39,7 @@ const pastAppointments = [
   },
   {
     id: 4,
-    doctorName: "Dr. James Wilson",
+    doctorName: "Dr. James Kanu",
     specialization: "Orthopedic Surgeon",
     date: "April 15, 2023",
     time: "11:45 AM",
@@ -48,7 +48,7 @@ const pastAppointments = [
   },
   {
     id: 5,
-    doctorName: "Dr. Sarah Johnson",
+    doctorName: "Dr. Sarah Jay",
     specialization: "Cardiologist",
     date: "March 22, 2023",
     time: "3:00 PM",

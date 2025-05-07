@@ -16,7 +16,7 @@ import Link from "next/link"
 const appointments = [
   {
     id: 1,
-    patientName: "Jessica Brown",
+    patientName: "Anu Oloride",
     patientId: "P-1001",
     date: "2023-05-06",
     time: "09:00 AM",
@@ -26,7 +26,7 @@ const appointments = [
   },
   {
     id: 2,
-    patientName: "Michael Johnson",
+    patientName: "Michael Kanu",
     patientId: "P-1002",
     date: "2023-05-06",
     time: "10:30 AM",
@@ -36,7 +36,7 @@ const appointments = [
   },
   {
     id: 3,
-    patientName: "Sarah Williams",
+    patientName: "Sarah Aliyu",
     patientId: "P-1003",
     date: "2023-05-06",
     time: "01:15 PM",
@@ -46,7 +46,7 @@ const appointments = [
   },
   {
     id: 4,
-    patientName: "David Miller",
+    patientName: "David Chidebere",
     patientId: "P-1004",
     date: "2023-05-07",
     time: "11:00 AM",
@@ -56,7 +56,7 @@ const appointments = [
   },
   {
     id: 5,
-    patientName: "Emily Davis",
+    patientName: "Emily Arinze",
     patientId: "P-1005",
     date: "2023-05-07",
     time: "02:30 PM",
@@ -66,7 +66,7 @@ const appointments = [
   },
   {
     id: 6,
-    patientName: "Robert Wilson",
+    patientName: "Robert Kiyosaki",
     patientId: "P-1006",
     date: "2023-05-08",
     time: "09:30 AM",
@@ -76,7 +76,7 @@ const appointments = [
   },
   {
     id: 7,
-    patientName: "Jennifer Taylor",
+    patientName: "Jennifer Achebe",
     patientId: "P-1007",
     date: "2023-05-08",
     time: "11:15 AM",
@@ -86,7 +86,7 @@ const appointments = [
   },
   {
     id: 8,
-    patientName: "Thomas Anderson",
+    patientName: "Thomas Madueke",
     patientId: "P-1008",
     date: "2023-05-09",
     time: "10:00 AM",
@@ -100,7 +100,7 @@ const appointments = [
 const pastAppointments = [
   {
     id: 101,
-    patientName: "Jessica Brown",
+    patientName: "Anu Oloride",
     patientId: "P-1001",
     date: "2023-04-28",
     time: "10:00 AM",
@@ -111,7 +111,7 @@ const pastAppointments = [
   },
   {
     id: 102,
-    patientName: "Michael Johnson",
+    patientName: "Michael Kanu",
     patientId: "P-1002",
     date: "2023-04-27",
     time: "02:30 PM",
@@ -122,7 +122,7 @@ const pastAppointments = [
   },
   {
     id: 103,
-    patientName: "Sarah Williams",
+    patientName: "Sarah Aliyu",
     patientId: "P-1003",
     date: "2023-04-25",
     time: "11:15 AM",
@@ -133,7 +133,7 @@ const pastAppointments = [
   },
   {
     id: 104,
-    patientName: "David Miller",
+    patientName: "David Chidebere",
     patientId: "P-1004",
     date: "2023-04-20",
     time: "09:30 AM",

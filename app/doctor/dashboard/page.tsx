@@ -25,7 +25,7 @@ import Link from "next/link"
 const appointments = [
   {
     id: 1,
-    patientName: "Jessica Brown",
+    patientName: "Anu Oloride",
     date: "2023-05-06",
     time: "09:00 AM",
     duration: "30 min",
@@ -34,7 +34,7 @@ const appointments = [
   },
   {
     id: 2,
-    patientName: "Michael Johnson",
+    patientName: "Michael Kanu",
     date: "2023-05-06",
     time: "10:30 AM",
     duration: "45 min",
@@ -43,31 +43,14 @@ const appointments = [
   },
   {
     id: 3,
-    patientName: "Sarah Williams",
+    patientName: "Sarah Aliyu",
     date: "2023-05-06",
     time: "01:15 PM",
     duration: "30 min",
     reason: "Prescription renewal",
     status: "Confirmed",
   },
-  {
-    id: 4,
-    patientName: "David Miller",
-    date: "2023-05-07",
-    time: "11:00 AM",
-    duration: "60 min",
-    reason: "New patient consultation",
-    status: "Pending",
-  },
-  {
-    id: 5,
-    patientName: "Emily Davis",
-    date: "2023-05-07",
-    time: "02:30 PM",
-    duration: "30 min",
-    reason: "Test results review",
-    status: "Confirmed",
-  },
+
 ]
 
 // Sample data for schedule
@@ -132,7 +115,7 @@ export default function DoctorDashboard() {
         <div className="max-w-6xl mx-auto">
           {/* Welcome Section */}
           <div className="mb-8">
-            <h1 className="text-2xl font-bold text-gray-800">Welcome back, Dr. Johnson!</h1>
+            <h1 className="text-2xl font-bold text-gray-800">Welcome back, Dr. Seyi!</h1>
             <p className="text-gray-600">Today is {format(today, "EEEE, MMMM d, yyyy")}</p>
           </div>
 

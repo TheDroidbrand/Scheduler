@@ -15,7 +15,7 @@ import Link from "next/link"
 const doctors = [
   {
     id: 1,
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Sarah Jay",
     specialization: "Cardiologist",
     rating: 4.8,
     reviews: 124,
@@ -24,7 +24,7 @@ const doctors = [
   },
   {
     id: 2,
-    name: "Dr. Michael Chen",
+    name: "Dr. Michael Aliyu",
     specialization: "Dermatologist",
     rating: 4.7,
     reviews: 98,
@@ -33,7 +33,7 @@ const doctors = [
   },
   {
     id: 3,
-    name: "Dr. Emily Rodriguez",
+    name: "Dr. Emily Williamson",
     specialization: "Pediatrician",
     rating: 4.9,
     reviews: 156,
@@ -42,7 +42,7 @@ const doctors = [
   },
   {
     id: 4,
-    name: "Dr. James Wilson",
+    name: "Dr. James Kanu",
     specialization: "Orthopedic Surgeon",
     rating: 4.6,
     reviews: 87,
@@ -51,7 +51,7 @@ const doctors = [
   },
   {
     id: 5,
-    name: "Dr. Olivia Thompson",
+    name: "Dr. Olivia Rodrigo",
     specialization: "Neurologist",
     rating: 4.9,
     reviews: 112,
@@ -60,7 +60,7 @@ const doctors = [
   },
   {
     id: 6,
-    name: "Dr. Robert Kim",
+    name: "Dr. Robert Kiyosaki",
     specialization: "Family Medicine",
     rating: 4.7,
     reviews: 143,
@@ -87,7 +87,7 @@ export default function PatientDashboard() {
         <div className="max-w-6xl mx-auto">
           {/* Welcome Section */}
           <div className="mb-8">
-            <h1 className="text-2xl font-bold text-gray-800">Welcome back, Jessica!</h1>
+            <h1 className="text-2xl font-bold text-gray-800">Welcome back, Favour!</h1>
             <p className="text-gray-600">Find and book your next appointment</p>
           </div>
 
@@ -133,7 +133,7 @@ export default function PatientDashboard() {
 
                     <div className="mt-4 flex items-center justify-between">
                       <Badge
-                        variant={doctor.availability.includes("Available Today") ? "success" : "outline"}
+                        variant={doctor.availability.includes("Available Today") ? "default" : "outline"}
                         className={
                           doctor.availability.includes("Available Today")
                             ? "bg-green-100 text-green-800 hover:bg-green-100"

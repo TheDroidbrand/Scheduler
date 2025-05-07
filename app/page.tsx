@@ -10,7 +10,7 @@ export default function LandingPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Calendar className="h-6 w-6 text-teal-600" />
-            <span className="text-xl font-bold">MediSchedule</span>
+            <span className="text-xl font-bold">Schedulr</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#" className="text-sm font-medium text-gray-600 transition-colors hover:text-teal-600">
@@ -181,7 +181,7 @@ export default function LandingPage() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Calendar className="h-6 w-6" />
-                <span className="text-xl font-bold">MediSchedule</span>
+                <span className="text-xl font-bold">Schedulr</span>
               </div>
               <p className="text-teal-100">Making healthcare accessible and convenient for everyone.</p>
             </div>
@@ -251,7 +251,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-teal-700 mt-8 pt-8 text-center text-teal-100">
-            <p>&copy; {new Date().getFullYear()} MediSchedule. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Schedulr. All rights reserved.</p>
           </div>
         </div>
       </footer>

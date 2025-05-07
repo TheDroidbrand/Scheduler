@@ -44,7 +44,7 @@ export function DoctorSidebar() {
         <SidebarHeader className="border-b border-gray-200 px-6 py-3">
           <div className="flex items-center gap-2">
             <Calendar className="h-6 w-6 text-teal-600" />
-            <span className="text-xl font-bold">MediSchedule</span>
+            <span className="text-xl font-bold">Schedulr</span>
           </div>
         </SidebarHeader>
 

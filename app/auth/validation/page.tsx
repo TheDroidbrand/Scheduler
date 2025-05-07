@@ -119,9 +119,9 @@ export default function ValidationAuthPage() {
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center gap-2 mb-2">
             <Calendar className="h-8 w-8 text-teal-600" />
-            <span className="text-2xl font-bold text-teal-700">MediSchedule</span>
+            <span className="text-2xl font-bold text-teal-700">Schedulr</span>
           </div>
-          <h1 className="text-2xl font-semibold text-gray-800">Welcome to MediSchedule</h1>
+          <h1 className="text-2xl font-semibold text-gray-800">Welcome to Schedulr</h1>
           <p className="text-gray-500 mt-2">Your healthcare scheduling solution</p>
         </div>
 

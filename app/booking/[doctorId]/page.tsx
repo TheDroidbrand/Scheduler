@@ -20,7 +20,7 @@ import { StarRating } from "../../dashboard/components/star-rating"
 // Sample doctor data
 const doctorData = {
   id: "dr-sarah-johnson",
-  name: "Dr. Sarah Johnson",
+  name: "Dr. Sarah Jay",
   specialization: "Cardiologist",
   image: "/placeholder.svg?height=200&width=200",
   rating: 4.8,

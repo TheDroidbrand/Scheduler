@@ -9,9 +9,8 @@ import { Toaster } from "@/components/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MediSchedule - Healthcare Appointment Scheduling",
+  title: "Schedulr - Healthcare Appointment Scheduling",
   description: "Schedule appointments with top healthcare providers in your area",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

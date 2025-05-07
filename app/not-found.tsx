@@ -47,7 +47,7 @@ export default function NotFoundPage() {
         <p className="text-sm text-gray-500 mt-8">
           If you believe this is an error, please contact our support team at{" "}
           <a href="mailto:support@medischedule.com" className="text-teal-600 hover:underline">
-            support@medischedule.com
+            support@schedulr.com
           </a>
         </p>
       </div>
